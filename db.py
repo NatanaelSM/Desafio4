@@ -1,5 +1,5 @@
 from app import app
-from flask_mysql import Mysql
+from flask_mysqldb import Mysql
 
 app.config['MYSQL_Host'] = 'localhost'
 app.config['MYSQL_USER'] = 'root'
