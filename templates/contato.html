@@ -3,13 +3,13 @@
     <h2>Entre em contato</h2>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate libero voluptates eveniet dignissimos, tenetur optio. Fuga amet tenetur voluptate delectus doloribus id quidem non, tempore dignissimos odio. Suscipit, explicabo voluptatum!</p>
     <hr>
-    <form>
+    <form action="/contato" method="POST">
             Seu email: <br>
             <input type="email" name="email"><br>
             Assunto: <br>
             <input type="text" name="assunto"><br>
             Descrição: <br>
-            <input type="description" name="descrição"><br>
-            <button>Enviar</button><br>
+            <input type="text" name="descrição"><br>
+            <input type="submit" title="Enviar">
     </form>
 {% endblock %}
