@@ -2,8 +2,6 @@ from app import app, render_template
 from flask import request
 from flask_mysqldb import MySQL
 from flask import Flask
-from flask import Flask, render_template
-app = Flask("__name__")
 
 app.config['MYSQL_Host'] = '127.0.0.1'
 app.config['MYSQL_USER'] = 'root'
