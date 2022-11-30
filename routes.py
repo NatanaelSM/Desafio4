@@ -4,8 +4,8 @@ from flask_mysqldb import MySQL
 from flask import Flask
 
 app.config['MYSQL_Host'] = '127.0.0.1'
-app.config['MYSQL_USER'] = 'root'
-app.config['MYSQL_PASSWORD'] = ''
+app.config['MYSQL_USER'] = 'natanael'
+app.config['MYSQL_PASSWORD'] = '123'
 app.config['MYSQL_DB'] = 'contatos'
 
 mysql = MySQL(app)
